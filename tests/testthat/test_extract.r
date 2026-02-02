@@ -1,5 +1,3 @@
-library(testthat)
-
 test_that("extract.participant extracts participant ID correctly", {
   # Test basic TCGA ID format
   expect_equal(extract.participant("TCGA-AB-1234-01A"), "1234")
